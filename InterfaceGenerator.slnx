@@ -1,0 +1,26 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Build.targets" />
+    <File Path="Directory.Packages.props" />
+    <File Path="global.json" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/InterfaceGenerator.Abstractions/InterfaceGenerator.Abstractions.csproj" />
+    <Project Path="src/InterfaceGenerator.Generator/InterfaceGenerator.Generator.csproj" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/InterfaceGenerator.Sample/InterfaceGenerator.Sample.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/InterfaceGenerator.Tests/InterfaceGenerator.Tests.csproj" />
+  </Folder>
+  <!-- Consumed through the local NuGet feed that run.ps1 builds, so not solution projects. -->
+  <Folder Name="/tests/Packaging/">
+    <File Path="tests/Packaging/NuGet.config" />
+    <File Path="tests/Packaging/run.ps1" />
+  </Folder>
+</Solution>

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Version>$(DemoServicesVersion)</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--
+      Deliberately left at the default PrivateAssets. The point of this test is that a library
+      using the generator needs no special setting for its consumers to get it too.
+      Setting PrivateAssets="all" here breaks them: it also hides the attributes (CS0012).
+    -->
+    <PackageReference Include="lucaslgt.InterfaceGenerator" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+  </ItemGroup>
+
+</Project>

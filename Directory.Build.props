@@ -1,0 +1,16 @@
+<Project>
+
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!-- Single source of truth: the package version and every consumer of it read this. -->
+    <InterfaceGeneratorVersion Condition="'$(InterfaceGeneratorVersion)' == ''">0.1.0-local.1</InterfaceGeneratorVersion>
+    <DemoServicesVersion Condition="'$(DemoServicesVersion)' == ''">1.0.0-local.1</DemoServicesVersion>
+  </PropertyGroup>
+
+</Project>
