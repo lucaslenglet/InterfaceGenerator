@@ -128,3 +128,9 @@ The annotated type must be `partial` and top-level. Records are supported; stati
 | IG0005 | Warning | A listed name matches no eligible member. |
 | IG0006 | Warning | A lifetime is set on an abstract type, which cannot be registered. |
 | IG0007 | Warning | A lifetime is set, but the DI abstractions are not referenced. |
+
+## License
+
+[MIT-0](LICENSE): use it however you like, no attribution required.
+
+This project does not accept contributions; pull requests will be closed.
