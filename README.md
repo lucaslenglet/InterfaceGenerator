@@ -1,5 +1,10 @@
 # InterfaceGenerator
 
+[![NuGet](https://img.shields.io/nuget/v/lucaslgt.InterfaceGenerator?logo=nuget)](https://www.nuget.org/packages/lucaslgt.InterfaceGenerator)
+[![Downloads](https://img.shields.io/nuget/dt/lucaslgt.InterfaceGenerator)](https://www.nuget.org/packages/lucaslgt.InterfaceGenerator)
+[![CI](https://github.com/lucaslenglet/InterfaceGenerator/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/lucaslenglet/InterfaceGenerator/actions/workflows/ci.yml)
+[![License: MIT-0](https://img.shields.io/github/license/lucaslenglet/InterfaceGenerator)](https://github.com/lucaslenglet/InterfaceGenerator/blob/main/LICENSE)
+
 Generate an interface from a class, and have the class implement it, with a single attribute.
 
 ```csharp
@@ -128,3 +133,10 @@ The annotated type must be `partial` and top-level. Records are supported; stati
 | IG0005 | Warning | A listed name matches no eligible member. |
 | IG0006 | Warning | A lifetime is set on an abstract type, which cannot be registered. |
 | IG0007 | Warning | A lifetime is set, but the DI abstractions are not referenced. |
+
+## License
+
+[MIT-0](https://github.com/lucaslenglet/InterfaceGenerator/blob/main/LICENSE): use it however you like, no attribution required.
+
+This project does not accept contributions; see [CONTRIBUTING.md](https://github.com/lucaslenglet/InterfaceGenerator/blob/main/CONTRIBUTING.md).
+Changes are listed in [CHANGELOG.md](https://github.com/lucaslenglet/InterfaceGenerator/blob/main/CHANGELOG.md).
